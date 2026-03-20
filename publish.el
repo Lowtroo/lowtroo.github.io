@@ -4,18 +4,6 @@
 
 (setq org-publish-project-alist
       '(
-	("index"
-	 :base-directory "./contents"
-	 :publishing-directory "./public"
-	 :publishing-function org-html-publish-to-html
-	 :recursive nil
-	 :with-title t
-    	 :with-smart-quotes t
-         :with-author t
-         :with-creator t
-	 :with-toc nil
-	 :section-numbers nil
-	 )
 	("Number Theory"
          :base-directory "./contents/Number_Theory"
          :publishing-directory "./public/Number_Theory"
@@ -31,12 +19,24 @@
 	 :sitemap-style list
 	 :sitemap-title ""
 	 )
+	("index"
+	 :base-directory "./contents"
+	 :publishing-directory "./public"
+	 :publishing-function org-html-publish-to-html
+	 :recursive nil
+	 :with-title t
+    	 :with-smart-quotes t
+         :with-author t
+         :with-creator t
+	 :with-toc nil
+	 :section-numbers nil
+	 )
         ;; ("site-static"
         ;;  :base-directory "~/pages/static"
         ;;  :publishing-directory "~/pages/public"
         ;;  :publishing-function org-publish-attachment)
         ("pages"
-         :components ("index" "Number Theory"))
+         :components ("Number Theory" "index"))
 	)
       )
 (org-publish "pages" t nil)
