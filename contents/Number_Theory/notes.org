@@ -1,4 +1,4 @@
-#+SETUPFILE: /home/lowtroo/Number_Theory/stylish_white.theme
+#+SETUPFILE: ../../static/stylish_white.theme
 #+TITLE: Number Theory 1
 #+AUTHOR: Lowtroo
 
