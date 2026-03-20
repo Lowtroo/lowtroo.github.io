@@ -38,8 +38,7 @@ jobs:
           sudo apt install emacs
       - name: Build site
         run: |
-          mkdir public \
-          emacs -Q --script publish.el
+          mkdir public && emacs -Q --script publish.el
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
