@@ -291,6 +291,18 @@ h6 {
     font-family: 'Source Sans Pro', 'Helvetica Neue', 'Segoe UI', sans-serif;
 }
 
+
+#postamble{
+    padding-top: 1.5em;
+}
+
+#postamble p,
+#postamble a{
+    line-height: 1.25em;
+    text-align: right;
+    margin: 0;
+}
+
 .tag {
     background-color: #eee8d5;
     color: #d33682;
