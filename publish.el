@@ -15,7 +15,8 @@
          :publishing-directory "./public/Number_Theory"
 	 :html-doctype "html5"
 	 :html-html5-fancy t
-	 :html-head ,(my-inline-css "./static/stylish_white.css")
+	 :html-head-include-default-style nil
+	 :html-head ,(my-inline-css "./static/solarized_light.css")
 	 :html-postamble t
 	 :html-postamble-format (("en" "<p class=\"author\">Author: %a</p>
 <p class=\"date\">Date: %d</p>
@@ -41,7 +42,8 @@
          :publishing-directory "./public/German_Grammars"
 	 :html-doctype "html5"
 	 :html-html5-fancy t
-	 :html-head ,(my-inline-css "./static/stylish_white.css")
+	 :html-head-include-default-style nil
+	 :html-head ,(my-inline-css "./static/solarized_light.css")
 	 :html-postamble t
 	 :html-postamble-format (("en" "<p class=\"author\">Author: %a</p>
 <p class=\"date\">Date: %d</p>
@@ -66,11 +68,14 @@
 	 :base-directory "./contents"
 	 :publishing-directory "./public"
 	 :publishing-function org-html-publish-to-html
-	 :html-head ,(my-inline-css "./static/stylish_white.css")
+	 :html-head-include-default-style nil
+	 :html-head ,(my-inline-css "./static/solarized_light.css")
+	 :html-postamble t
+	 :html-postamble-format (("en" "<p class=\"creator\">%c</p>"))
 	 :recursive nil
 	 :with-title t
     	 :with-smart-quotes t
-         :with-author t
+         :with-author nil
          :with-creator t
 	 :with-toc nil
 	 :section-numbers nil
