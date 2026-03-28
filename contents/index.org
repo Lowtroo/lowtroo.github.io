@@ -1,4 +1,3 @@
-#+SETUPFILE: ../static/stylish_white.theme
 #+TITLE:  Lowtroo's site
 
 * German Grammars

@@ -2,11 +2,18 @@
 (package-initialize)
 (require 'ox-publish)
 
+(defun my-inline-css (file)
+  (format "<style type=\"text/css\">\n%s\n</style>\n"
+          (with-temp-buffer
+            (insert-file-contents file)
+            (buffer-string))))
+
 (setq org-publish-project-alist
-      '(
+      `(
 	("Number Theory"
          :base-directory "./contents/Number_Theory"
          :publishing-directory "./public/Number_Theory"
+	 :html-head ,(my-inline-css "./static/stylish_white.css")
 	 :recursive nil
 	 :with-title t
     	 :with-smart-quotes t
@@ -22,6 +29,7 @@
 	("German Grammars"
          :base-directory "./contents/German_Grammars"
          :publishing-directory "./public/German_Grammars"
+	 :html-head ,(my-inline-css "./static/stylish_white.css")
 	 :recursive nil
 	 :with-title t
     	 :with-smart-quotes t
@@ -38,6 +46,7 @@
 	 :base-directory "./contents"
 	 :publishing-directory "./public"
 	 :publishing-function org-html-publish-to-html
+	 :html-head ,(my-inline-css "./static/stylish_white.css")
 	 :recursive nil
 	 :with-title t
     	 :with-smart-quotes t
