@@ -1,8 +1,10 @@
 #+SETUPFILE: ../static/stylish_white.theme
 #+TITLE:  Lowtroo's site
 
+* German Grammars
+#+INCLUDE: "./German_Grammars/sitemap.org" :only-contents t
+
 * Number Theory
 #+INCLUDE: "./Number_Theory/sitemap.org" :only-contents t
 
-* German Grammars
-#+INCLUDE: "./German_Grammars/sitemap.org" :only-contents t
+

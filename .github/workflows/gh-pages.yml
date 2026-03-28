@@ -33,18 +33,11 @@ jobs:
     steps:
       - name: check out repository
         uses: actions/checkout@v6
-      - name: check out Number Theory notes
-        uses: actions/checkout@v6
-        with: 
-          repository: 'Lowtroo/Number_Theory'
-          token: ${{ secrets.GH_PAT }}
-          path: './contents/Number_Theory'
-      - name: check out German Grammars notes
-        uses: actions/checkout@v6
-        with: 
-          repository: 'Lowtroo/German_Grammars'
-          token: ${{ secrets.GH_PAT }}
-          path: './contents/German_Grammars'
+
+      - name: clone from private repositories
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: ./clone_repos.sh
       - name: Install dependencies
         run: |
           sudo apt install emacs
