@@ -190,12 +190,12 @@ table {
 }
 
 html {
-    font-family: 'PT Sans', sans-serif
+    font-family: 'Source Serif 4', serif
 }
 
 pre,
 code {
-    font-family: 'Inconsolata', sans-serif
+    font-family: 'Maple Mono Normal NL NF CN', monospace
 }
 
 h1,
@@ -204,7 +204,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 700
 }
 
