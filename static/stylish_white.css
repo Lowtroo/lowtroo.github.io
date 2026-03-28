@@ -1,6 +1,6 @@
 /* * Cascading stylesheet for GNU Emacs org mode * Nicolas P. Rougier - September 2020 * Released under a Creative Commons CC-BY 4.0 licence */
 body {
-    font-family: "Roboto Mono", monospace;
+    font-family: "Georgia", "Times New Roman", "Palatino", "IBM Plex Serif", "Noto Serif", serif;
     font-size: 14px;
     font-weight: 300;
     color: rgba(51, 51, 51, 1.00);
