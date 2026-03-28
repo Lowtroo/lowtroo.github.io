@@ -15,6 +15,10 @@
          :publishing-directory "./public/Number_Theory"
 	 :html-head ,(my-inline-css "./static/stylish_white.css")
 	 :html-postamble t
+	 :html-postamble-format (("en" "<p class=\"author\">Author: %a</p>
+<p class=\"date\">Date: %d</p>
+<p class=\"creator\">%c</p>"))
+	 
 	 :author "Lowtroo"
 	 :language en
 	 :recursive nil
@@ -35,6 +39,10 @@
          :publishing-directory "./public/German_Grammars"
 	 :html-head ,(my-inline-css "./static/stylish_white.css")
 	 :html-postamble t
+	 :html-postamble-format (("en" "<p class=\"author\">Author: %a</p>
+<p class=\"date\">Date: %d</p>
+<p class=\"creator\">%c</p>"))
+	 
 	 :author "Lowtroo"
 	 :language en
 	 :recursive nil
