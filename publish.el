@@ -14,6 +14,7 @@
          :base-directory "./contents/Number_Theory"
          :publishing-directory "./public/Number_Theory"
 	 :html-head ,(my-inline-css "./static/stylish_white.css")
+	 :html-postamble t
 	 :author "Lowtroo"
 	 :language en
 	 :recursive nil
@@ -22,6 +23,7 @@
 	 :with-author t
 	 :with-creator t
          :with-toc t
+	 :with-date t
          :section-numbers t
 	 :auto-sitemap t
 	 :sitemap-filename "sitemap.org"
@@ -32,6 +34,7 @@
          :base-directory "./contents/German_Grammars"
          :publishing-directory "./public/German_Grammars"
 	 :html-head ,(my-inline-css "./static/stylish_white.css")
+	 :html-postamble t
 	 :author "Lowtroo"
 	 :language en
 	 :recursive nil
@@ -40,6 +43,7 @@
 	 :with-author t
 	 :with-creator t
          :with-toc t
+	 :with-date t
          :section-numbers t
 	 :auto-sitemap t
 	 :sitemap-filename "sitemap.org"
