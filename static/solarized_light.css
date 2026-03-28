@@ -28,7 +28,7 @@ audio:not([controls]) {
 }
 
 html {
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', 'Segoe UI', sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
 }
@@ -190,12 +190,12 @@ table {
 }
 
 html {
-    font-family: 'Source Serif 4', serif
+    font-family: 'Source Serif 4', 'Times New Roman', 'Geogia', serif
 }
 
 pre,
 code {
-    font-family: 'Maple Mono Normal NL NF CN', monospace
+    font-family: 'Maple Mono Normal NL NF CN', 'Monaco', 'consolas', monospace
 }
 
 h1,
@@ -204,7 +204,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', 'Segoe UI', sans-serif;
     font-weight: 700
 }
 
@@ -285,6 +285,10 @@ h5 {
 
 h6 {
     font-size: 1.15em
+}
+
+#text-table-of-contents{
+    font-family: 'Source Sans Pro', 'Helvetica Neue', 'Segoe UI', sans-serif;
 }
 
 .tag {
