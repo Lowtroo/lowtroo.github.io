@@ -13,6 +13,8 @@
 	("Number Theory"
          :base-directory "./contents/Number_Theory"
          :publishing-directory "./public/Number_Theory"
+	 :html-doctype "html5"
+	 :html-html5-fancy t
 	 :html-head ,(my-inline-css "./static/stylish_white.css")
 	 :html-postamble t
 	 :html-postamble-format (("en" "<p class=\"author\">Author: %a</p>
@@ -37,6 +39,8 @@
 	("German Grammars"
          :base-directory "./contents/German_Grammars"
          :publishing-directory "./public/German_Grammars"
+	 :html-doctype "html5"
+	 :html-html5-fancy t
 	 :html-head ,(my-inline-css "./static/stylish_white.css")
 	 :html-postamble t
 	 :html-postamble-format (("en" "<p class=\"author\">Author: %a</p>
