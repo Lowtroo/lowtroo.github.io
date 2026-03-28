@@ -17,8 +17,10 @@ a:visited {
     color: rgba(48, 63, 159, 1.00);
 }
 
+b,
+strong,
 .org-bold {
-    font-weight: 400;
+    font-weight: 700;
 }
 
 i,
@@ -27,7 +29,17 @@ i a {
     font-style: normal;
 }
 
-.org-italic,
+i {
+    font-style: italic;
+}
+
+em,
+.org-italic {
+    color: rgba(48, 63, 159, 0.75);
+    font-style: italic;
+}
+
+
 .org-org-meta-line {
     color: rgba(48, 63, 159, 0.75);
     font-style: normal;
