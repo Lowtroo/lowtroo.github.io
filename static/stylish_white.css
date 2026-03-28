@@ -140,47 +140,58 @@ blockquote {
     border-left: 3px solid #cccccc;
 }
 
+ul.org-ul,
+ol.org-ol {
+    margin-left: 0;
+}
+
 ul.org-ul {
-    padding-left: 0
+    padding-left: 1.75em;
+    list-style-type: disc;
 }
 
-ul.org-ul li {
-    list-style-type: none;
-    margin-bottom: .5em;
+ul.org-ul ul {
+    padding-left: 1.5em;
+    list-style-type: circle;
 }
 
-ul.org-ul li p {
-    display: inline-block;
-    margin-top: 0em;
-    margin-bottom: 0em;
+ul.org-ul ul ul {
+    list-style-type: square;
 }
 
-ul.org-ul li::before {
-    display: inline-block;
-    content: "ʘ";
-    color: #999999;
-    width: 1em;
-    margin-left: -1em;
+ul.org-ul ul ul ul {
+    list-style-type: disc;
 }
 
 ol.org-ol {
-    padding-left: 0;
-    margin-left: 2em;
-    list-style: none;
-    counter-reset: li;
+    padding-left: 2em;
+    list-style-type: decimal;
 }
 
-.org-ol li {
-    counter-increment: li;
-    margin-bottom: .25em;
+ol.org-ol ol {
+    padding-left: 1.75em;
+    list-style-type: lower-alpha;
 }
 
-.org-ol li::before {
-    content: counter(li) ". ";
-    color: #999999;
-    display: inline-block;
-    width: 2em;
-    margin-left: -2em;
+ol.org-ol ol ol {
+    padding-left: 1.75em;
+    list-style-type: lower-roman;
+}
+
+ul.org-ul li,
+ol.org-ol li {
+    margin-bottom: .35em;
+}
+
+ul.org-ul li p,
+ol.org-ol li p {
+    display: block;
+    margin: 0.3em 0;
+}
+
+ul.org-ul li::before,
+ol.org-ol li::before {
+    content: none;
 }
 
 #content,
