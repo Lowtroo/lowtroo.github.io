@@ -19,8 +19,8 @@
 	 :html-head ,(my-inline-css "./static/solarized_light.css")
 	 :html-postamble t
 	 :html-postamble-format (("en" "<p class=\"author\">Author: %a</p>
-<p class=\"date\">Date: %d</p>
-<p class=\"creator\">%c</p>"))
+<p class=\"date\">Created on: %d</p>
+<p class=\"creator\">Powered by %c</p>"))
 	 
 	 :author "Lowtroo"
 	 :language en
@@ -46,8 +46,8 @@
 	 :html-head ,(my-inline-css "./static/solarized_light.css")
 	 :html-postamble t
 	 :html-postamble-format (("en" "<p class=\"author\">Author: %a</p>
-<p class=\"date\">Date: %d</p>
-<p class=\"creator\">%c</p>"))
+<p class=\"date\">Created on: %d</p>
+<p class=\"creator\">Powered by %c</p>"))
 	 
 	 :author "Lowtroo"
 	 :language en
@@ -71,7 +71,7 @@
 	 :html-head-include-default-style nil
 	 :html-head ,(my-inline-css "./static/solarized_light.css")
 	 :html-postamble t
-	 :html-postamble-format (("en" "<p class=\"creator\">%c</p>"))
+	 :html-postamble-format (("en" "<p class=\"creator\">Powered by %c</p>"))
 	 :recursive nil
 	 :with-title t
     	 :with-smart-quotes t
