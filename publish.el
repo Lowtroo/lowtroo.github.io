@@ -23,7 +23,7 @@
 <p class=\"creator\">Powered by %c</p>"))
 	 
 	 :author "Lowtroo"
-	 :language en
+	 :language "en"
 	 :recursive nil
 	 :with-title t
     	 :with-smart-quotes t
@@ -50,7 +50,7 @@
 <p class=\"creator\">Powered by %c</p>"))
 	 
 	 :author "Lowtroo"
-	 :language en
+	 :language "en"
 	 :recursive nil
 	 :with-title t
     	 :with-smart-quotes t
@@ -72,6 +72,7 @@
 	 :html-head ,(my-inline-css "./static/solarized_light.css")
 	 :html-postamble t
 	 :html-postamble-format (("en" "<p class=\"creator\">Powered by %c</p>"))
+	 :language "en"
 	 :recursive nil
 	 :with-title t
     	 :with-smart-quotes t
