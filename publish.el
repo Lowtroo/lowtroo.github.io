@@ -72,6 +72,7 @@
 	 :html-head ,(my-inline-css "./static/solarized_light.css")
 	 :html-postamble t
 	 :html-postamble-format (("en" "<p class=\"creator\">Powered by %c</p>"))
+	 :html-doctype "html5"
 	 :language "en"
 	 :recursive nil
 	 :with-title t
