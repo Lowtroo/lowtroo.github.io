@@ -378,3 +378,9 @@ h6 {
     border-radius: .2em;
     background-color: #859900
 }
+.underline {
+  text-decoration: underline;
+}
+.strike-through {
+  text-decoration: line-through;
+}
