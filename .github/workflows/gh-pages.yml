@@ -45,7 +45,7 @@ jobs:
         run: |
           mkdir public && emacs -Q --script publish.el
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v7
         with:
           path: ./public
   deploy:
@@ -57,4 +57,4 @@ jobs:
     steps:
       - name: Deploy to Github Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

@@ -186,8 +186,20 @@ textarea {
 
 table {
     border-collapse: collapse;
-    border-spacing: 0
+    margin: 1em 0;
+    width: auto;
+    max-width: 100%;
 }
+th, td {
+    border: 1px solid #999;
+    padding: 0.5em 0.8em;
+    text-align: left;
+    vertical-align: top;
+}
+th { 
+    font-weight: 600;
+}
+
 
 html {
     font-family: 'Source Serif 4', 'Times New Roman', Georgia, serif
