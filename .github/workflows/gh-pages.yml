@@ -45,7 +45,7 @@ jobs:
         run: |
           mkdir public && emacs -Q --script publish.el
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v7
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
   deploy:
