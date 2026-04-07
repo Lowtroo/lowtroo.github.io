@@ -10,6 +10,33 @@
 
 (setq org-publish-project-alist
       `(
+	("Tools Usage"
+         :base-directory "./contents/Tools_Usage"
+         :publishing-directory "./public/Tools_Usage"
+	 :html-doctype "html5"
+	 :html-html5-fancy t
+	 :html-head-include-default-style nil
+	 :html-head ,(my-inline-css "./static/solarized_light.css")
+	 :html-postamble t
+	 :html-postamble-format (("en" "<p class=\"author\">Author: %a</p>
+<p class=\"date\">Created on: %d</p>
+<p class=\"creator\">Powered by %c</p>"))
+	 
+	 :author "Lowtroo"
+	 :language "en"
+	 :recursive nil
+	 :with-title t
+    	 :with-smart-quotes t
+	 :with-author t
+	 :with-creator t
+         :with-toc t
+	 :with-date t
+         :section-numbers t
+	 :auto-sitemap t
+	 :sitemap-filename "sitemap.org"
+	 :sitemap-style list
+	 :sitemap-title ""
+	 )
 	("Number Theory"
          :base-directory "./contents/Number_Theory"
          :publishing-directory "./public/Number_Theory"
@@ -87,7 +114,7 @@
         ;;  :publishing-directory "~/pages/public"
         ;;  :publishing-function org-publish-attachment)
         ("pages"
-         :components ("Number Theory" "German Grammars" "index"))
+         :components ("Tools Usage" "Number Theory" "German Grammars" "index"))
 	)
       )
 (org-publish "pages" t nil)
