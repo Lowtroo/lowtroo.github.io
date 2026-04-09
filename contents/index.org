@@ -8,3 +8,6 @@
 
 * Basic Tools Usage
 #+INCLUDE: "./Tools_Usage/sitemap.org" :only-contents t
+
+* Distributed Graph Algorithms
+#+INCLUDE: "./DGA/sitemap.org" :only-contents t
