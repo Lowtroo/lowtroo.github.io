@@ -168,7 +168,7 @@
         ;;  :publishing-directory "~/pages/public"
         ;;  :publishing-function org-publish-attachment)
         ("pages"
-         :components ("DGA" "Tools Usage" "Number Theory" "German Grammars" "index"))
+         :components ("data_networks" "DGA" "Tools Usage" "Number Theory" "German Grammars" "index"))
 	)
       )
 (org-publish "pages" t nil)
