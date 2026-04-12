@@ -10,6 +10,33 @@
 
 (setq org-publish-project-alist
       `(
+	("data_networks"
+         :base-directory "./contents/data_networks"
+         :publishing-directory "./public/data_networks"
+	 :html-doctype "html5"
+	 :html-html5-fancy t
+	 :html-head-include-default-style nil
+	 :html-head ,(my-inline-css "./static/solarized_light.css")
+	 :html-postamble t
+	 :html-postamble-format (("en" "<p class=\"author\">Author: %a</p>
+<p class=\"date\">Created on: %d</p>
+<p class=\"creator\">Powered by %c</p>"))
+	 
+	 :author "Lowtroo"
+	 :language "en"
+	 :recursive nil
+	 :with-title t
+    	 :with-smart-quotes t
+	 :with-author t
+	 :with-creator t
+         :with-toc t
+	 :with-date t
+         :section-numbers t
+	 :auto-sitemap t
+	 :sitemap-filename "sitemap.org"
+	 :sitemap-style list
+	 :sitemap-title ""
+	 )
 	("DGA"
          :base-directory "./contents/DGA"
          :publishing-directory "./public/DGA"

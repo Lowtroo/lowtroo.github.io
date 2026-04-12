@@ -11,3 +11,6 @@
 
 * Distributed Graph Algorithms
 #+INCLUDE: "./DGA/sitemap.org" :only-contents t
+
+* Data Networks
+#+INCLUDE: "./data_networks/sitemap.org" :only-contents t
