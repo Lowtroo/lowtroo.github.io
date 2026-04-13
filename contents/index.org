@@ -17,3 +17,6 @@
 
 * Cryptography
 #+INCLUDE: "./cryptography/sitemap.org" :only-contents t
+
+* Operating Systems
+#+INCLUDE: "./operating_systems/sitemap.org" :only-contents t
