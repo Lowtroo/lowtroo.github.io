@@ -36,6 +36,7 @@
 	 :sitemap-filename "sitemap.org"
 	 :sitemap-style list
 	 :sitemap-title ""
+	 :sitemap-sort-files chronologically
 	 )
 	("cryptography"
          :base-directory "./contents/cryptography"
@@ -63,6 +64,7 @@
 	 :sitemap-filename "sitemap.org"
 	 :sitemap-style tree
 	 :sitemap-title ""
+	 :sitemap-sort-files chronologically
 	 )
 	("data_networks"
          :base-directory "./contents/data_networks"
@@ -78,7 +80,7 @@
 	 
 	 :author "Lowtroo"
 	 :language "en"
-	 :recursive nil
+	 :recursive t
 	 :with-title t
     	 :with-smart-quotes t
 	 :with-author t
@@ -88,8 +90,9 @@
          :section-numbers t
 	 :auto-sitemap t
 	 :sitemap-filename "sitemap.org"
-	 :sitemap-style list
+	 :sitemap-style tree
 	 :sitemap-title ""
+	 :sitemap-sort-files chronologically
 	 )
 	("DGA"
          :base-directory "./contents/DGA"
@@ -117,6 +120,7 @@
 	 :sitemap-filename "sitemap.org"
 	 :sitemap-style list
 	 :sitemap-title ""
+	 :sitemap-sort-files chronologically
 	 )
 	("Tools Usage"
          :base-directory "./contents/Tools_Usage"
@@ -144,6 +148,7 @@
 	 :sitemap-filename "sitemap.org"
 	 :sitemap-style list
 	 :sitemap-title ""
+	 :sitemap-sort-files chronologically
 	 )
 	("Number Theory"
          :base-directory "./contents/Number_Theory"
@@ -171,6 +176,7 @@
 	 :sitemap-filename "sitemap.org"
 	 :sitemap-style list
 	 :sitemap-title ""
+	 :sitemap-sort-files chronologically
 	 )
 	("German Grammars"
          :base-directory "./contents/German_Grammars"
@@ -198,6 +204,7 @@
 	 :sitemap-filename "sitemap.org"
 	 :sitemap-style list
 	 :sitemap-title ""
+	 :sitemap-sort-files chronologically
 	 )
 	("index"
 	 :base-directory "./contents"
