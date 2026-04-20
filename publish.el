@@ -51,7 +51,7 @@
 	 
 	 :author "Lowtroo"
 	 :language "en"
-	 :recursive nil
+	 :recursive t
 	 :with-title t
     	 :with-smart-quotes t
 	 :with-author t
