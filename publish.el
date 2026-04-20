@@ -61,7 +61,7 @@
          :section-numbers t
 	 :auto-sitemap t
 	 :sitemap-filename "sitemap.org"
-	 :sitemap-style list
+	 :sitemap-style tree
 	 :sitemap-title ""
 	 )
 	("data_networks"
